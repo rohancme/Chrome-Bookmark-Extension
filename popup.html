@@ -11,6 +11,7 @@
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
+        
       }
       #MainDiv {
         /* avoid an excessively wide status text */
@@ -25,7 +26,9 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <div id="MainDiv"><h3>Choose a Folder of References!</h3><ul id="MainList"></ul></div>
+    <div id="MainDiv">
+      <h3 id="h3ForHeading">Choose a Folder of References!</h3><span style="white-space:nowrap;overflow:hidden"><h4>Include links in subfolders?<input type="checkbox"/></h4></span><ul id="MainList"></ul>
+    </div>
   </body>
 </html>
 

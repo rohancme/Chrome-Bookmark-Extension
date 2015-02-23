@@ -1,9 +1,14 @@
-<!--This amazing css styling from: http://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/ -->
-
 h3 {
-  font: 400 30px/1.5 Helvetica, Verdana, sans-serif;
-  margin: 0;
+  margin: -35px 0 0 0;
+  padding: -35px 0 0 0;
+  text-align: center;
+}
+
+h4 {
+  font: 200 15px/1.2 Helvetica, Verdana, sans-serif;
+  margin: 5px 0 0 0;
   padding: 0;
+  text-align: center;
 }
  
 ul {
@@ -19,7 +24,7 @@ ul ul{
 }
  
 li {
-  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  font: 200 15px/1.2 Helvetica, Verdana, sans-serif;
   border-bottom: 1px solid #ccc;
 }
  
@@ -41,6 +46,8 @@ li a {
 }
  
 li a:hover {
-  font-size: 30px;
+  font-size: 25px;
   background: #f6f6f6;
 }
+
+<!--This amazing css styling from: http://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/ -->
