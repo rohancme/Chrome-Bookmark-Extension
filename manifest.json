@@ -3,7 +3,7 @@
 
   "name": "Bookmarks to References",
   "description": "This extension converts Bookmarks in a folder to a list of References",
-  "version": "0.1",
+  "version": "0.2",
 
   "browser_action": {
     "_comment": "icon.png is provided by DesignModo under the Creative Commons License",
