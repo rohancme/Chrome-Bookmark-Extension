@@ -1,4 +1,4 @@
-function print_all(items,print_sublist){
+function print_all(items){
   var counter=1;
   items.forEach(function(items){
    
@@ -11,21 +11,17 @@ function print_all(items,print_sublist){
       refList.appendChild(newNode);
       counter++;
 
-    }
-    else if(print_sublist=='true'){//will print subfolders
-        print_references_in_folder(items.id,print_sublist);
-    }
-
-    else{
-      console.log(print_sublist);
+      //If I decide I need to print the subfolders as well
+      //if (items.children)
+        //print_all(items.children);
     }
     });
 }
 
 
-function print_references_in_folder(id,print_sublist){
+function print_references_in_folder(id){
   chrome.bookmarks.getChildren(id,function(items){
-    print_all(items,print_sublist);
+    print_all(items);
   });
 }
 
@@ -44,14 +40,14 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   var query = window.location.search.substring(1);
-  var split_query=query.split('?');
-  var folder_header=split_query[0];
-  var folder_id=folder_header.split('=')[1];
+<<<<<<< HEAD
+  var folder_info=query.split('?')[1];
+  var folder_id=folder_info.split('=')[1];
+  console.log(folder_id);
 
-  var print_sublist_header=split_query[1];
-  var print_sublist=print_sublist_header.split('=')[1];
-
-
-  print_references_in_folder(folder_id,print_sublist);
+=======
+  var value=query.split('=')[1];
+>>>>>>> 0ea01517db499f5d4b0066cdc58f320402a66eaf
+  print_references_in_folder(value);
 
 });

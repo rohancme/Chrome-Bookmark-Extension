@@ -1,0 +1,113 @@
+<<<<<<< HEAD
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+  background: #dfdfdf;
+}
+
+#MainDiv {
+  /* avoid an excessively wide status text */
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 400px;
+  border: 1px solid;
+  border-radius: 25px;
+  border-color: #dfdfdf;
+  background: #fff;
+}
+
+=======
+>>>>>>> 0ea01517db499f5d4b0066cdc58f320402a66eaf
+h3 {
+  margin: -35px 0 0 0;
+  padding: -35px 0 0 0;
+  text-align: center;
+}
+
+h4 {
+  font: 200 15px/1.2 Helvetica, Verdana, sans-serif;
+<<<<<<< HEAD
+  margin: 5px 0 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+=======
+  margin: 5px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+ 
+>>>>>>> 0ea01517db499f5d4b0066cdc58f320402a66eaf
+ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+<<<<<<< HEAD
+  padding-left: 5px;
+=======
+>>>>>>> 0ea01517db499f5d4b0066cdc58f320402a66eaf
+}
+
+ul ul{
+  list-style-type: square;
+  margin: 10px;
+  padding-left: 10px;
+}
+<<<<<<< HEAD
+
+#MainDiv ul li {
+  font: 200 18px/1.2 Helvetica, Verdana, sans-serif;
+}
+
+#MainDiv ul ul li{
+  font: 200 15px/1.2 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #595959;
+  display: block;
+  width: 200px;
+
+=======
+ 
+li {
+  font: 200 15px/1.2 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+li:last-child {
+  border: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+ 
+>>>>>>> 0ea01517db499f5d4b0066cdc58f320402a66eaf
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+<<<<<<< HEAD
+
+=======
+ 
+>>>>>>> 0ea01517db499f5d4b0066cdc58f320402a66eaf
+li a:hover {
+  font-size: 25px;
+  background: #f6f6f6;
+}
+
+<!--This amazing css styling from: http://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/ -->
