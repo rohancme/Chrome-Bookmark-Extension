@@ -39,7 +39,7 @@ function selectBlock(containerid) {
 
 document.addEventListener('DOMContentLoaded', function() {
 
-  document.getElementById('MainDiv').addEventListener("click", function(){ 
+  document.getElementById('MainDiv').addEventListener("dblclick", function(){ 
     selectBlock('MainDiv');
   });
 
